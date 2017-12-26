@@ -29,4 +29,3 @@ print "  [+] ORG: ", $info->{'as'}, "\n";
 print "  [+] Country code: ", $info->{'countryCode'}, "\n"; 
 print "  [+] Status: ", $info->{'status'}, "\n"; 
 print "\n";
-# EOF
