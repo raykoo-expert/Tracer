@@ -6,7 +6,7 @@ use Term::ANSIColor;
 use WWW::Mechanize;
 use JSON;
 
-@iphost=$ARGV[0] || die "Usage: ./Tracer.pl [host] or [ip] or [domain] /n";
+@iphost=$ARGV[0] || die "Usage : ./Iplocation.pl [host] or [ip] or [domain] \n";
 my @ip = inet_ntoa(scalar gethostbyname("@iphost")or die "IP or Host invalid!\n");
 my @hn = scalar gethostbyaddr(inet_aton(@ip),AF_INET);
  
